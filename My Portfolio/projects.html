@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #222; 
+            color: white;
+            padding: 12px 12px; 
+            position: relative;
+        }
+        .social-icons {
+            display: flex;
+        }
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 1.2em; 
+        }
+        .contact-info-wrapper {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+        }
+        .contact-info {
+            display: flex;
+            align-items: center;
+            color: white;
+            font-size: 1.0em; 
+        }
+        .contact-info i {
+            margin-right: 15px; 
+            font-size: 1.5em; 
+        }
+        .contact-info .fa-phone {
+            transform: rotate(90deg); 
+        }
+        .contact-info span {
+            margin-left: 15px;
+        }
+
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            background-color: #f9f9f9; 
+            padding: 15px 0; 
+            border-bottom: 1px solid #ddd;
+        }
+        .nav-menu a {
+            color: black;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        .nav-menu a:hover {
+            text-decoration: underline;
+        }
+
+        .banner {
+            background-image: url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); /* URL to your background image */
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            color: white;
+            padding: 160px 0;
+            text-align: center;
+        }
+        .banner h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .projects-container {
+            margin-top: 40px;
+        }
+        .project {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        .project img {
+            width: 150px; 
+            height: 150px; 
+            object-fit: cover; 
+            border-radius: 50%; 
+        }
+        .project-info {
+            padding: 20px;
+            width: 60%;
+        }
+        .project-info h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        .project-info p {
+            margin: 0;
+            padding: 5px 0;
+        }
+        .project-contribution {
+            margin-top: 10px;
+            font-style: italic;
+            color: #555;
+        }
+
+        .project:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+       
+        link {
+            font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+        }
+
+           .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .footer .social-links {
+            margin-bottom: 10px;
+        }
+        .footer .social-links a {
+            color: white;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        .footer .social-links a:hover {
+            color: #4CAF50;
+        }
+        .footer p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+   
+    <div class="header">
+        <div class="social-icons">
+            <a href=https://www.facebook.com/lesego.mahlako.92?mibextid=LQQJ4d><i class="fab fa-facebook"></i></a>
+            <a href=https://www.instagram.com/lesego_mahlako?igsh=MWc5eHd5OWRhaWtidQ%3D%3D&utm_source=qr><i class="fab fa-instagram"></i></a>
+            <a href=https://www.linkedin.com/in/lesego-aphane-9bb5b5238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="contact-info-wrapper">
+            <div class="contact-info">
+                <i class="fas fa-envelope"></i><span>lesegomahlako427@gmail.com</span>
+                <i class="fas fa-phone fa-phone"></i><span>+27 82 753 1328</span>
+            </div>
+        </div>
+    </div>
+    <div class="nav-menu">
+        <a href="file:///C:/Users/Lesego/Desktop/CodesoftPortfolio/Codesoft%20task%201%20-%20Copy.html">Home</a>
+        <a href="file:///C:/Users/Lesego/Desktop/CodesoftPortfolio/Projects%20page.html">Projects</a>
+        <a href="file:///C:/Users/Lesego/Desktop/CodesoftPortfolio/Services%20page.html">Services</a>
+    </div>
+
+    <div class="banner">
+        <h1>Projects</h1>
+    </div>
+    <div class="projects-container">
+        <div class="project">
+            <img src="C:\Users\Lesego\Downloads\Screenshot 2024-09-09 140041.png" alt="Project 1 Screenshot">
+            <div class="project-info">
+                <h2>Ukukhulisa</h2>
+                <p><strong>Description:</strong> This project was focused on building a user-friendly website for a kindergarten, focusing on intuitive design and engaging content for parents and children.</p>
+                <p class="project-contribution"><strong>My Contribution:</strong>  I was responsible for both developing and testing the website. As the sole developer, I worked closely with the project manager to ensure that all requirements were met and the project was delivered successfully. My role involved writing code, implementing features, and conducting thorough testing to ensure the website’s functionality, performance, and usability. This project was completed while working at TIC-IT Telecoms, utilizing their resources and infrastructure to achieve successful delivery.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="C:\Users\Lesego\Downloads\Screenshot 2024-09-09 140832.png" alt="Project 2 Screenshot">
+            <div class="project-info">
+                <h2>Raha Transport</h2>
+                <p><strong>Description:</strong>Building an Efficient Web Platform for Transport Operations</p>
+                <p class="project-contribution"><strong>My Contribution:</strong> I played a key role as a front-end developer, working closely with my team to deliver a successful website. My primary responsibilities involved developing the user interface and implementing front-end features to ensure a seamless and engaging user experience. Collaborating with team members, I focused on integrating design elements with functionality, ensuring that the website was both visually appealing and responsive. My role required close coordination with the team to align on project goals, address any issues promptly, and contribute to the overall success of the project. This project was completed while at TIC-IT Telecoms, where I utilized the company's resources and infrastructure to achieve optimal results.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="C:\Users\Lesego\Downloads\Screenshot 2024-09-09 140633.png" alt="Project 3 Screenshot">
+            <div class="project-info">
+                <h2>Pula and Paul</h2>
+                <p><strong>Description:</strong> Developing an Innovative Website for Commodity Trading Solutions.</p>
+                <p class="project-contribution"><strong>My Contribution:</strong> I served as an assisting front-end developer under the guidance of the lead developer. My responsibilities included supporting the lead in implementing and refining the user interface, ensuring that design specifications were accurately translated into functional, user-friendly features. I collaborated closely with the lead developer and other team members to address any technical challenges and contribute to the overall development process. My role involved integrating front-end components, testing for responsiveness, and ensuring a seamless user experience. This project was carried out while working at TIC-IT Telecoms, utilizing the company's resources to effectively meet the project’s goals.</p>
+            </div>
+        </div>
+    </div>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="social-links">
+            <a href="https://www.facebook.com/lesego.mahlako.92?mibextid=LQQJ4d" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/lesego-aphane-9bb5b5238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/lesego_mahlako?igsh=MWc5eHd5OWRhaWtidQ%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; This site is proudly developed by Lesego Aphane.All rights reserved.</p>
+    </div>
+    <div class="footer-right">
+        <a href="mailto:lesegomahlako427@gmail.com">For any inquiries or feedback, please contact me.</a>
+      
+    </div>
+</footer>
+
+</body>
+</html>
